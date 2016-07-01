@@ -10,8 +10,18 @@ p /gpio/{pin}/off
 em Turns LED off
 p /gpio/{pin}/direction/{dir}
 em Changes the direction of the Pin, possible inputs for {dir} are "in" and "out"
-p /gpio/{pin}/reset
-em Resets a pin
+p /gpio/{pin}/pwm/setup/{value}/{range}
+em Sets a PWM up, with the range of {range} and a specified {value}
+p /gpio/{pin}/pwm/change/{value}
+em Changes the value on a PWM
+p /gpio/{pin}/servo/{value}
+em Sets a servo up with a {value}
+p /gpio/{pin}/analog/{value}
+em Writes a {value} to the {pin}
+p /gpio/{pin}/analog
+em Reads the analog-value of a {pin}
+p /gpio/{pin}/read
+em Reads the digital value of a {pin}
 br
 br
 br
