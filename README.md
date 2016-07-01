@@ -1,6 +1,5 @@
 # NodePi
-Basic GPIO Control for the Raspberry Pi using the gpio library
-We will replace the gpio library with the wiring-pi JS library asap.
+Basic GPIO Control for the Raspberry Pi using the wiring-pi JS library
 
 # How to use it
 
